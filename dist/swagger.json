@@ -3,6 +3,7 @@
         "version": "1.0",
         "termsOfService": "PropLogistics Terms of Service",
         "contact": {
+            "name": "Jamie Adams",
             "email": "jamie@ciglogistics.com"
         },
         "title": "PropLogistics REST API",
@@ -13,7 +14,6 @@
         }
     },
     "swagger": "2.0",
-    "host": "yourhost.com",
     "basePath": "/api",
     "schemes": [
         "https",
@@ -628,7 +628,6 @@
                     "Inbounds"
                 ],
                 "description": false,
-                "parameters": [],
                 "responses": {
                     "200": {
                         "description": "Inbounds response",
@@ -645,7 +644,6 @@
                     "Inbounds"
                 ],
                 "description": false,
-                "parameters": [],
                 "responses": {
                     "200": {
                         "description": "Inbounds response",
@@ -1247,7 +1245,6 @@
                     "Outbounds"
                 ],
                 "description": false,
-                "parameters": [],
                 "responses": {
                     "200": {
                         "description": "Outbounds response",
