@@ -99,7 +99,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "DemurrageContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -132,7 +135,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "DemurrageContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -165,7 +171,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "DemurrageContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -267,7 +276,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Drafts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -300,7 +312,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Drafts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -333,7 +348,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Drafts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -435,7 +453,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Inbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -468,7 +489,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Inbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -501,7 +525,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Inbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -603,7 +630,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Invoices object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -636,7 +666,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Invoices object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -669,7 +702,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Invoices object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -771,7 +807,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "MiscCharges object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -804,7 +843,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "MiscCharges object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -837,7 +879,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "MiscCharges object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -939,7 +984,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Outbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -972,7 +1020,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Outbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1005,7 +1056,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Outbounds object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1107,7 +1161,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Scales object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1140,7 +1197,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Scales object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1173,7 +1233,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "Scales object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1275,7 +1338,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "TransloadContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1308,7 +1374,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "TransloadContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
@@ -1341,7 +1410,10 @@
                         "name": "body",
                         "in": "body",
                         "description": "TransloadContracts object that needs to be added to the store",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/testSchema"
+                        }
                     }
                 ],
                 "responses": {
