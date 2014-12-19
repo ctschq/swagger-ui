@@ -627,7 +627,7 @@
                 "tags": [
                     "Inbounds"
                 ],
-                "description": false,
+                "description": "Perform the unloadable action.",
                 "responses": {
                     "200": {
                         "description": "Inbounds response",
@@ -643,7 +643,7 @@
                 "tags": [
                     "Inbounds"
                 ],
-                "description": false,
+                "description": "Perform the receive action.",
                 "responses": {
                     "200": {
                         "description": "Inbounds response",
@@ -1244,7 +1244,7 @@
                 "tags": [
                     "Outbounds"
                 ],
-                "description": false,
+                "description": "Perform the loadable action.",
                 "responses": {
                     "200": {
                         "description": "Outbounds response",
