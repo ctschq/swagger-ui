@@ -39,7 +39,9 @@
     "paths": {
         "/demurrage-contracts": {
             "get": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "List instances of DemurrageContracts, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -53,7 +55,9 @@
         },
         "/demurrage-contracts/{id}": {
             "get": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "Find DemurrageContracts by ID",
                 "produces": [
                     "application/json",
@@ -81,7 +85,9 @@
                 }
             },
             "put": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "Update DemurrageContracts by ID",
                 "produces": [
                     "application/json",
@@ -118,7 +124,9 @@
                 }
             },
             "patch": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -155,7 +163,9 @@
                 }
             },
             "post": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -192,7 +202,9 @@
                 }
             },
             "delete": {
-                "tags": "DemurrageContracts",
+                "tags": [
+                    "DemurrageContracts"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -222,7 +234,9 @@
         },
         "/drafts": {
             "get": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "List instances of Drafts, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -236,7 +250,9 @@
         },
         "/drafts/{id}": {
             "get": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "Find Drafts by ID",
                 "produces": [
                     "application/json",
@@ -264,7 +280,9 @@
                 }
             },
             "put": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "Update Drafts by ID",
                 "produces": [
                     "application/json",
@@ -301,7 +319,9 @@
                 }
             },
             "patch": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -338,7 +358,9 @@
                 }
             },
             "post": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -375,7 +397,9 @@
                 }
             },
             "delete": {
-                "tags": "Drafts",
+                "tags": [
+                    "Drafts"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -405,7 +429,9 @@
         },
         "/inbounds": {
             "get": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "List instances of Inbounds, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -419,7 +445,9 @@
         },
         "/inbounds/{id}": {
             "get": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "Find Inbounds by ID",
                 "produces": [
                     "application/json",
@@ -447,7 +475,9 @@
                 }
             },
             "put": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "Update Inbounds by ID",
                 "produces": [
                     "application/json",
@@ -484,7 +514,9 @@
                 }
             },
             "patch": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -521,7 +553,9 @@
                 }
             },
             "post": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -558,7 +592,9 @@
                 }
             },
             "delete": {
-                "tags": "Inbounds",
+                "tags": [
+                    "Inbounds"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -588,7 +624,9 @@
         },
         "/invoices": {
             "get": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "List instances of Invoices, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -602,7 +640,9 @@
         },
         "/invoices/{id}": {
             "get": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "Find Invoices by ID",
                 "produces": [
                     "application/json",
@@ -630,7 +670,9 @@
                 }
             },
             "put": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "Update Invoices by ID",
                 "produces": [
                     "application/json",
@@ -667,7 +709,9 @@
                 }
             },
             "patch": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -704,7 +748,9 @@
                 }
             },
             "post": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -741,7 +787,9 @@
                 }
             },
             "delete": {
-                "tags": "Invoices",
+                "tags": [
+                    "Invoices"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -771,7 +819,9 @@
         },
         "/misc-charges": {
             "get": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "List instances of MiscCharges, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -785,7 +835,9 @@
         },
         "/misc-charges/{id}": {
             "get": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "Find MiscCharges by ID",
                 "produces": [
                     "application/json",
@@ -813,7 +865,9 @@
                 }
             },
             "put": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "Update MiscCharges by ID",
                 "produces": [
                     "application/json",
@@ -850,7 +904,9 @@
                 }
             },
             "patch": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -887,7 +943,9 @@
                 }
             },
             "post": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -924,7 +982,9 @@
                 }
             },
             "delete": {
-                "tags": "MiscCharges",
+                "tags": [
+                    "MiscCharges"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -954,7 +1014,9 @@
         },
         "/outbounds": {
             "get": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "List instances of Outbounds, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -968,7 +1030,9 @@
         },
         "/outbounds/{id}": {
             "get": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "Find Outbounds by ID",
                 "produces": [
                     "application/json",
@@ -996,7 +1060,9 @@
                 }
             },
             "put": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "Update Outbounds by ID",
                 "produces": [
                     "application/json",
@@ -1033,7 +1099,9 @@
                 }
             },
             "patch": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1070,7 +1138,9 @@
                 }
             },
             "post": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1107,7 +1177,9 @@
                 }
             },
             "delete": {
-                "tags": "Outbounds",
+                "tags": [
+                    "Outbounds"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -1137,7 +1209,9 @@
         },
         "/scales": {
             "get": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "List instances of Scales, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -1151,7 +1225,9 @@
         },
         "/scales/{id}": {
             "get": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "Find Scales by ID",
                 "produces": [
                     "application/json",
@@ -1179,7 +1255,9 @@
                 }
             },
             "put": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "Update Scales by ID",
                 "produces": [
                     "application/json",
@@ -1216,7 +1294,9 @@
                 }
             },
             "patch": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1253,7 +1333,9 @@
                 }
             },
             "post": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1290,7 +1372,9 @@
                 }
             },
             "delete": {
-                "tags": "Scales",
+                "tags": [
+                    "Scales"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
@@ -1320,7 +1404,9 @@
         },
         "/transload-contracts": {
             "get": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "List instances of TransloadContracts, filtered by given criteria.",
                 "responses": {
                     "200": {
@@ -1334,7 +1420,9 @@
         },
         "/transload-contracts/{id}": {
             "get": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "Find TransloadContracts by ID",
                 "produces": [
                     "application/json",
@@ -1362,7 +1450,9 @@
                 }
             },
             "put": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "Update TransloadContracts by ID",
                 "produces": [
                     "application/json",
@@ -1399,7 +1489,9 @@
                 }
             },
             "patch": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1436,7 +1528,9 @@
                 }
             },
             "post": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "This is an alias of the PUT operation in this path",
                 "produces": [
                     "application/json",
@@ -1473,7 +1567,9 @@
                 }
             },
             "delete": {
-                "tags": "TransloadContracts",
+                "tags": [
+                    "TransloadContracts"
+                ],
                 "description": "",
                 "produces": [
                     "application/json",
